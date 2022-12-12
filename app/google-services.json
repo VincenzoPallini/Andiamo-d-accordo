@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "1071139372611",
+    "firebase_url": "https://tesi2-d9453-default-rtdb.firebaseio.com",
+    "project_id": "tesi2-d9453",
+    "storage_bucket": "tesi2-d9453.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071139372611:android:f2e18eb8f919de17241ef6",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071139372611-433sjckfg4s61nntpou29egjh4tn4dav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC08o8pDUfrqM1b6XlJ_rWTeKLuhH1OC3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071139372611-433sjckfg4s61nntpou29egjh4tn4dav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071139372611:android:e73b144e153bfbb0241ef6",
+        "android_client_info": {
+          "package_name": "com.example.tesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071139372611-97j9171svbifn241rdknu5edand76ln2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tesi",
+            "certificate_hash": "aee8b09690b04fe481f3114ecd432f0f16cf15ed"
+          }
+        },
+        {
+          "client_id": "1071139372611-433sjckfg4s61nntpou29egjh4tn4dav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC08o8pDUfrqM1b6XlJ_rWTeKLuhH1OC3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071139372611-433sjckfg4s61nntpou29egjh4tn4dav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071139372611:android:8780bbebe8026bca241ef6",
+        "android_client_info": {
+          "package_name": "com.koddev.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071139372611-433sjckfg4s61nntpou29egjh4tn4dav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC08o8pDUfrqM1b6XlJ_rWTeKLuhH1OC3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071139372611-433sjckfg4s61nntpou29egjh4tn4dav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

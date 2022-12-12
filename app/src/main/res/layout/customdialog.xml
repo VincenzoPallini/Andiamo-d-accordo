@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="description" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:hint="age" />
+
+    <EditText
+
+        android:id="@+id/hobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age"
+        android:layout_gravity="center_horizontal"
+        android:hint="hobby" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/hobby"
+        android:layout_height="wrap_content"
+        android:hint="city" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/city"
+        android:layout_height="wrap_content"
+        android:hint="address" />
+</RelativeLayout>

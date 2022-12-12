@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="400dp"
+    >
+
+ <TextView
+     android:id="@+id/Description1"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:text="Descrizione:"
+     app:layout_constraintBottom_toTopOf="@+id/Age"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.246" />
+
+ <TextView
+     android:id="@+id/Age"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="80dp"
+     android:text="Età: "
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:met_floatingLabel="normal" />
+
+ <TextView
+     android:id="@+id/City"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="16dp"
+     android:text="Città:"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/Age"
+     app:met_floatingLabel="normal" />
+
+ <TextView
+     android:id="@+id/Hobby"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="16dp"
+     android:text="Hobby:"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/City"
+     app:met_floatingLabel="normal" />
+
+ <Button
+     android:id="@+id/button"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginBottom="50dp"
+     android:text="Text Me"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.504"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/Hobby"
+     app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

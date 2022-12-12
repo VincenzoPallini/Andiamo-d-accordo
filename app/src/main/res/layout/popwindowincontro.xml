@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#30DCD6">
+
+
+    <TextView
+        android:id="@+id/DescrizioneIncontro"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="COMPLIMENTI!\n HAI CONFERMATO LA TUA PARTECIPAZIONE A QUESTO EVENTO.\n Troverai tutti gli eventi a cui parteciperai nelle impostazioni\n NON MANCARE!" />
+
+</RelativeLayout>

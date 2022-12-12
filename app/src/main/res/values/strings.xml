@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Andiamo D\'accordo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_chat">Chat</string>
+    <string name="title_home">Home</string>
+    <string name="title_forum">Forum</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat">Chat</string>
+    <string name="home">Home</string>
+    <string name="forum">Forum</string>
+    <string name="maps_api_key">AIzaSyBdrus4zVxHk_C3qZ9nC_wTYVeRWW4M7WU</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="register">Register</string>
+</resources>

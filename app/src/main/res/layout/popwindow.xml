@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#30DCD6">
+
+
+    <TextView
+        android:id="@+id/DescrizioneIncontro"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Complimenti: EVENTO ORGANIZZATO!  \nInvita i tuoi amici e parlagli di questo incontro!
+        \n Puoi trovare il tuo evento nella mappa -Cerca un incontro- " />
+
+</RelativeLayout>

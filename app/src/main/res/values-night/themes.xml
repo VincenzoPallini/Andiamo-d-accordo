@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Application theme for dark theme. -->
+    <style name="Theme.ChatApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/toolbar</item>
+        <item name="colorPrimaryDark">@color/toolbarDark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/toolbarDark</item>
+        <item name="colorSecondaryVariant">@color/toolbarDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/toolbarDark</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/main_background</item>
+
+    </style>
+
+    <style name="MenuStyle" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="TabStyle" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicatorColor">@color/toolbarDark</item>
+        <item name="tabTextColor">@color/white</item>
+        <item name="tabSelectedTextColor">@color/toolbarDark</item>
+    </style>
+
+</resources>

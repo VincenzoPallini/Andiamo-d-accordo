@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/bar_layout"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:layout_below="@+id/toolbar">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Questa sezione è dedicata all'organizzaione di un incontro.\nCompila questi dati e CONFERMA!"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Cittaincontro"
+                android:layout_marginTop="10dp"
+                app:met_floatingLabel="normal"
+                android:hint="Città"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Addressorganizza"
+                app:met_floatingLabel="normal"
+                android:hint="Indirizzo"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:met_floatingLabel="normal"
+                android:id="@+id/Dataincontro"
+                android:inputType="date"
+                android:hint="Data"
+                android:focusable="false"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:met_floatingLabel="normal"
+                android:id="@+id/Orarioincontro"
+                android:inputType="time|date"
+                android:hint="A che ora si farà l'incontro?"
+                android:focusable="false"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:met_floatingLabel="normal"
+                android:id="@+id/Summaryincontro"
+                android:hint="Cosa si farà?"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conferma"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Confermabutton"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
