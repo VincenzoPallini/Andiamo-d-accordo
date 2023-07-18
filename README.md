@@ -1,5 +1,5 @@
 # Corso di laurea in Informatica
-# TESI DI LAUREA IN INFORMATICA
+<center>TESI DI LAUREA IN INFORMATICA</center>
 # Progettazione e sviluppo di un'applicazione sociale a 
 # supporto di utenti con disturbo dello spettro autistico
 
