@@ -1,3 +1,10 @@
+#Corso di laurea in Informatica
+#TESI DI LAUREA IN INFORMATICA
+#Progettazione e sviluppo di un'applicazione sociale a 
+#supporto di utenti con disturbo dello spettro autistico
+
+
+
 Questo progetto di tesi riguarda la progettazione di un'applicazione per dispositivi mobili rivolta a persone con disturbo dello spettro autistico (ASD). L'obiettivo dell'applicazione è aiutare queste persone a creare nuove amicizie partecipando a incontri organizzati da altri utenti registrati all'applicazione.
 
 L'applicazione è molto semplice da usare. Gli utenti si possono registrare inserendo le proprie informazioni personali, come nome, età, interessi e abilità. Dopo la registrazione, gli utenti possono utilizzare la mappa dell'applicazione per trovare altri utenti che si trovano nelle vicinanze. Gli utenti possono quindi scambiare messaggi con gli altri utenti e organizzare incontri ai quali vogliono partecipare.
