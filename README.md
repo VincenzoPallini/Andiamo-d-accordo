@@ -1,17 +1,16 @@
-# Corso di laurea in Informatica
-# <center>TESI DI LAUREA IN INFORMATICA</center>
-# Progettazione e sviluppo di un'applicazione sociale a supporto di utenti con disturbo dello spettro autistico 
+# Bachelor of Science in Computer Science
+# <center>Graduate Thesis in Computer Science</center>
+# Design and development of a social application to support users with autism spectrum disorder 
 
 
  
 
-Questo progetto di tesi riguarda la progettazione di un'applicazione per dispositivi mobili rivolta a persone con disturbo dello spettro autistico (ASD). L'obiettivo dell'applicazione è aiutare queste persone a creare nuove amicizie partecipando a incontri organizzati da altri utenti registrati all'applicazione.
+This thesis project concerns the design of a mobile device application aimed at people with autism spectrum disorder (ASD). The goal of the application is to help these people create new friendships by participating in meetings organized by other users registered to the application.
 
-L'applicazione è molto semplice da usare. Gli utenti si possono registrare inserendo le proprie informazioni personali, come nome, età, interessi e abilità. Dopo la registrazione, gli utenti possono utilizzare la mappa dell'applicazione per trovare altri utenti che si trovano nelle vicinanze. Gli utenti possono quindi scambiare messaggi con gli altri utenti e organizzare incontri ai quali vogliono partecipare.
+The application is very easy to use. Users can register by entering their personal information, such as name, age, interests, and skills. After registration, users can use the app's map to find other users who are nearby. Users can then exchange messages with other users and arrange meetings in which they want to participate.
 
-L'applicazione è stata realizzata in Android, Java e API Google. Il database NoSQL in cloud messo a disposizione da Firebase Realtime Database è stato utilizzato per memorizzare i dati degli utenti e le informazioni sugli incontri.
+The application was built in Android, Java, and Google APIs. The cloud-based NoSQL database provided by Firebase Realtime Database was used to store user data and meeting information.
 
-L'applicazione è ancora in fase di sviluppo, ma ha già ricevuto feedback positivi da parte di alcuni utenti. Gli utenti hanno apprezzato la semplicità d'uso dell'applicazione e la possibilità di incontrare altre persone con ASD che condividono i loro interessi.
+The application is still under development, but it has already received positive feedback from some users. Users have appreciated the ease of use of the application and the ability to meet other people with ASD who share their interests.
 
-L'applicazione ha il potenziale per migliorare la qualità della vita delle persone con ASD, permettendo loro di creare nuove amicizie e di sentirsi meno soli.
-
+The app has the potential to improve the quality of life for people with ASD, allowing them to create new friendships and feel less lonely.
