@@ -1,7 +1,9 @@
 # Andiamo d'accordo - Social App for ASD Support
 
 **Bachelor of Science Thesis Project in Computer Science**
+
 *University: Università degli Studi di Salerno*
+
 *Author: Vincenzo Pallini*
 
 This repository contains the source code and documentation for "Andiamo d'accordo," a mobile application designed as part of a Bachelor's thesis project. The main goal of the app is to support individuals with Autism Spectrum Disorder (ASD) in creating new friendships and social connections by facilitating the organization of and participation in meetups based on shared interests.
